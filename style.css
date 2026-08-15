@@ -155,6 +155,7 @@ div .image .comm h2{
     max-width: fit-content;
     background-color: gray;
     font-family: mv;
+     max-width: 100%;
 }
 .sui{
     margin-top: 6%;
@@ -169,6 +170,7 @@ div .image .comm h2{
     width: 70%;
     align-items: center;
     margin-top: 10%;
+    max-width: 100%;
 }
 .sui .suit1 h2{
     border: 1px solid gray;
@@ -179,11 +181,13 @@ div .image .comm h2{
     font-family: mv;
     margin-bottom:3%;
     margin-top: 7px;
+
 }
 .sui .suit2{
     margin-top: 5%;
     margin-bottom: 10%;
     margin-left: 15%;
+    max-width: 100%;
 }
 .sui .suit2 h2{
     margin-top: 7px;
