@@ -168,14 +168,19 @@ div .image .comm h2{
 }
 
 @media (max-width: 768px){
+    .sui{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
     .sui img{
-    width: 70%;
+    width: 80%;
    display: block;
-    margin-top: 10%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;    
+    margin: 20px auto 10px auto;
+    max-width: 280%;
+        
 }
 
 .sui .suit1 h2{
@@ -189,8 +194,15 @@ div .image .comm h2{
     .sui .suit2{
     margin-top: 5%;
     margin-bottom: 10%;
-    margin-left: 20%;
-    max-width: 100%;
+    margin-left: auto%;
+        margin-right: auto;
+        float: none;
+    max-width: 340px;
+    display: block;
+        position: relative;
+        width: 90%;
+        
+        
     
 }
 
@@ -260,5 +272,6 @@ footer div{
     padding: 1%;
     background-color: aqua;
     border-radius: 10px;
-    margin-top: 8%
+    margin-top: 8%;
+    clear: both;
 }
