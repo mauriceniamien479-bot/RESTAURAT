@@ -166,39 +166,41 @@ div .image .comm h2{
    
 
 }
-.sui img{
+
+@media (max-width: 768px){
+    .sui img{
     width: 70%;
-    align-items: center;
+   display: block;
     margin-top: 10%;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .sui .suit1 h2{
-    border: 1px solid gray;
     border-radius: 10px;
     text-align:center;
-    max-width: fit-content;
-    background-color: gray;
     font-family: mv;
     margin-bottom:3%;
     margin-top: 7px;
 
 }
-.sui .suit2{
+    .sui .suit2{
     margin-top: 5%;
     margin-bottom: 10%;
-    margin-left: 15%;
+    margin-left: 20%;
     max-width: 100%;
+    
 }
+
 .sui .suit2 h2{
     margin-top: 7px;
      margin-bottom:3%;
     margin-bottom: 10px;
-    border: 1px solid gray;
     border-radius: 10px;
     text-align:center;
-    max-width: fit-content;
-    background-color: gray;
     font-family: mv;
+}
 }
 a{
     text-decoration: none;
@@ -212,7 +214,7 @@ footer div{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-top: 8%;
+  
 }
 .contact{
     border: 1px solid;
@@ -220,6 +222,8 @@ footer div{
     display:inline-block;
     background-color: orangered;
     width: 20%;
+    margin-top: 10%;
+
 }
 .page{
     border: 1px solid;
@@ -227,6 +231,7 @@ footer div{
     display:inline-block;
     background-color:gray;
     width: 20%;
+    margin-top: 10%;
 }
 .Commande{
     border: 1px solid;
@@ -234,6 +239,7 @@ footer div{
     display:inline-block;
     background-color:gray;
     width: 20%;
+    margin-top: 10%;
 }
 .Commande a{
     color: white;
@@ -253,4 +259,5 @@ footer div{
     padding: 1%;
     background-color: aqua;
     border-radius: 10px;
+    margin-top: 8%
 }
